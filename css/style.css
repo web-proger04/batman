@@ -122,14 +122,16 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center top;
-	padding-top: 187px;
+	padding: 187px 0px 104px 0px;
 }
 
 .batman__body {
 }
 
 .batman__info {
+	max-width: 975px;
 	display: flex;
+	align-items: center;
 	margin-bottom: 88px;
 }
 
@@ -138,6 +140,7 @@ body {
 }
 
 .batman__sm {
+	display: block;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: normal;
@@ -217,6 +220,87 @@ body {
 	text-align: center;
 	padding: 22px 0px;
 }
+
+.batman__button-play {
+	width: 132px;
+	height: 132px;
+	border-radius: 50%;
+	background-color: rgba(63, 22, 22, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.batman__button-dark {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #151515;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*batman-slider*/
+
+.batman-slider__wrap {
+	max-width: 420px;
+	display: flex;
+	align-items: center;
+}
+
+.batman-slider {
+	
+}
+
+.swiper {
+}
+
+.batman-slider__wpapper {
+}
+
+.swiper-wrapper {
+}
+
+.batman-slider__slide {
+	position: relative;
+}
+
+.batman-slider__link {
+
+}
+
+.batman-slider__link img {
+	display: block;
+	border-radius: 8px;
+}
+
+.batman-slider__sp {
+	position: absolute;
+	bottom: 6px;
+	left: 12px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 12px;
+	color: #FFFFFF;
+}
+
+.swiper-slide {
+}
+
+.batman-slider__arrow {
+	margin-left: 28px;
+	cursor: pointer;
+}
+
+/*batman-slider*/
+
 /*batman*/
 
 
